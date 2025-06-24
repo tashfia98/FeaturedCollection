@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Featured Collection - Best Sellers</title>
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Featured Collection - Best Sellers</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/index.css">
 </head>
 <body class="bg-white">
-    <script src="scripts/products.js"></script>
-    <script src="scripts/index.js"></script>
-    <div class="container mx-auto p-8">
-        <h1 class="text-xl md:text-2xl font-bold mb-6">Best Sellers</h1>
-        <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
+  <script src="scripts/products.js"></script>
+  <script src="scripts/index.js"></script>
+
+  <div class="container mx-auto p-8">
+    <h1 class="text-xl md:text-2xl font-bold mb-6">Best Sellers</h1>
+    <div class="md:overflow-x-auto custom-scrollbar pb-10">
+      <div id="product-list" class="grid grid-cols-1 sm:grid-cols-2 gap-6 md:flex md:w-max"></div>
     </div>
+  </div>
 </body>
 </html>

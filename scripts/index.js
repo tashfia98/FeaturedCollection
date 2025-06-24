@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", () => {
       : "";
 
     return `
-      <div>
+      <div class="md:w-[250px]">
         <div class="relative w-full h-60 overflow-hidden rounded-lg shadow-md">
           ${badgeLeft}
           ${badgeRight}
