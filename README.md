@@ -10,6 +10,6 @@ This is a responsive and interactive product listing component built with **HTML
 - Responsive design using Tailwind
 
 ## 🚀 Preview
-To preview this component, simply open the index.html file in your preferred web browser after copying cloning the repo. You can do this by:
-- Double-clicking the index.html file in your project folder, or
-- Right-clicking the file and selecting Open with > your browser.
+To preview this component:
+- Clone/Download the repo.
+- Right-clicking the index.html file and selecting Open with > your preferred browser.
