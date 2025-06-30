@@ -13,3 +13,4 @@ This is a responsive and interactive product listing component built with **HTML
 To preview this component:
 - Clone/Download the repo.
 - Right-clicking the index.html file and selecting Open with > your preferred browser.
+- Or just click this quick link: https://tashfia98.github.io/FeaturedCollection/
